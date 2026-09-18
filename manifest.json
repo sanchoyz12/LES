@@ -1,0 +1,19 @@
+{
+  "name": "Гостиница «ЛЕС» — Woodo 3D",
+  "short_name": "Гостиница ЛЕС",
+  "description": "Интерактивная 3D-диорама и тактильная головоломка Woodo в атмосфере гостиницы «ЛЕС»",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#121714",
+  "theme_color": "#121714",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "360x360",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

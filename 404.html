@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>404 — Гостиница «ЛЕС»</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #121714;
+            color: #f0ede6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 24px;
+        }
+        .card {
+            background: rgba(26, 36, 30, 0.92);
+            border: 1px solid rgba(212, 163, 89, 0.35);
+            border-radius: 20px;
+            padding: 40px 32px;
+            max-width: 440px;
+            width: 100%;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+        }
+        .icon { font-size: 56px; margin-bottom: 16px; }
+        h1 { font-size: 26px; color: #d4a359; margin-bottom: 12px; font-weight: 600; }
+        p { color: #a9b7ad; font-size: 15px; line-height: 1.6; margin-bottom: 24px; }
+        .btn {
+            display: inline-block;
+            background: #2e5a44;
+            color: #fff;
+            text-decoration: none;
+            padding: 13px 28px;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .btn:hover { background: #3d785a; transform: translateY(-1px); }
+    </style>
+    <script>
+        // Automatic redirect back to hotel after 3 seconds
+        setTimeout(function() {
+            window.location.href = './index.html';
+        }, 3000);
+    </script>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">🌲🚪</div>
+        <h1>Комната не найдена</h1>
+        <p>Кажется, этой двери нет на плане гостиницы «ЛЕС». Возвращаемся в главный холл...</p>
+        <a href="./index.html" class="btn">Вернуться в отель ➔</a>
+    </div>
+</body>
+</html>
